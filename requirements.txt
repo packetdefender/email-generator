@@ -1,0 +1,4 @@
+names==0.3.0
+random-password-generator==2.2.0
+names==0.3.0
+random-password-generator==2.2.0
