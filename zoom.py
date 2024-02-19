@@ -68,13 +68,21 @@ while c < 10:
         c += 1
         time.sleep(1)
     elif c % 1 == 0:
-        # send_aws_ts()
+        send_aws_ts()
         c += 1
         time.sleep(1)
     elif c % 5 == 0:
         send_zoom_full_meeting()
         c += 1
         time.sleep(1)
-
-
-# https://forwardnetworks.zoom.us/j/82763264025?pwd=0oVtxabN3CMWsGUqWTVsyObXfyRiE4.1
+c = 1
+while c < 10:
+    print(c)
+    if c % 2 == 0 or c % 3 == 0 or c % 4 == 0:
+        send_zoom_meeting()
+        c += 1
+        time.sleep(1)
+    elif c % 5 == 0:
+        send_zoom_full_meeting()
+        c += 1
+        time.sleep(1)
